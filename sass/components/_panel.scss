@@ -1,0 +1,59 @@
+.panel {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 45rem;
+
+    &__side {
+        height: 45rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem $shadow-1;
+        overflow: hidden;
+
+        &--front {
+            background-color: $primary-color;
+        }
+
+        &--back {
+            background-color: $primary-color;
+            transform: rotateY(180deg);
+        }
+    }
+
+    &__heading {
+        font-size: 3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+        color: $color-white;
+        position: absolute;
+        background-color: $primary-color-dark;
+        padding: 2rem;
+        width: 100%;
+    }
+
+    &__frame {
+        width: 85%;
+        height: 55%;
+        padding: 1rem;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: $primary-color-light;
+        border-radius: 3px;
+    }
+
+    &__nav {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

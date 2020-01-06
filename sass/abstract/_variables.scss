@@ -1,0 +1,27 @@
+//COLORS
+$primary-color-dark:   #1976D2;
+$primary-color:        #2196F3;
+$primary-color-light:  #BBDEFB;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #03A9F4;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$color-grey-light:     #BDBDBD;
+$color-black:          #000000;
+$color-white:          #ffffff;
+
+// SHADOWS
+$shadow-0: rgba($color-black, .1);
+$shadow-1: rgba($color-black, .15);
+$shadow-2: rgba($color-black, .2);
+$shadow-3: rgba($color-black, .4);
+$shadow-4: rgba($color-black, .5);
+
+
+// FONT
+$default-font-size: 1.6rem;
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
